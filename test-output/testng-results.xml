@@ -2,23 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T16:05:58 IST" name="Suite" finished-at="2024-03-23T16:06:05 IST" duration-ms="6605">
+  <suite started-at="2024-05-09T22:24:48 IST" name="Default suite" finished-at="2024-05-09T22:25:01 IST" duration-ms="13122">
     <groups>
     </groups>
-    <test started-at="2024-03-23T16:05:58 IST" name="TestNg" finished-at="2024-03-23T16:06:05 IST" duration-ms="6605">
-      <class name="practice.BasicPractice.Parametrized">
-        <test-method signature="testOne(java.lang.String)[pri:0, instance:practice.BasicPractice.Parametrized@74fe5c40]" started-at="2024-03-23T16:05:58 IST" name="testOne" finished-at="2024-03-23T16:06:05 IST" duration-ms="6562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.youtube.com/]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-05-09T22:24:48 IST" name="Default test" finished-at="2024-05-09T22:25:01 IST" duration-ms="13122">
+      <class name="multiplewindowhandles.WindowHandleTest">
+        <test-method signature="windowHandle()[pri:0, instance:multiplewindowhandles.WindowHandleTest@16d04d3d]" started-at="2024-05-09T22:24:48 IST" name="windowHandle" finished-at="2024-05-09T22:25:01 IST" duration-ms="13064" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-      </class> <!-- practice.BasicPractice.Parametrized -->
-    </test> <!-- TestNg -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- windowHandle -->
+      </class> <!-- multiplewindowhandles.WindowHandleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

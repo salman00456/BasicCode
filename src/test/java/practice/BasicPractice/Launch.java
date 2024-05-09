@@ -18,11 +18,10 @@ public class Launch {
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.name("username")));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");
-		driver.findElement(By.name("password"));
+		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.xpath("//div[contains(@class,'oxd-form-actions')]//following-sibling::button")).click();
 		
 		
